@@ -67,7 +67,7 @@ This is a [Next.js](https://nextjs.org/) Boilerplate set up with Typescript, Cha
 
 - Clone repository
 
-`$ git clone https://github.com/AstrOOnauta/next-13-boilerplate.git`
+`$ git clone https://github.com/Kinda9300/next-13-boilerplate.git`
 
 - Install dependencies
 
