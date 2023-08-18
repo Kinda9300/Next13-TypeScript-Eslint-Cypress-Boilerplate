@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Urbanist', sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    width: 206.8px;
+    height: 205.6px;
+    color: white;
+    background-color: #007D8E;
+    border-radius: 36.3px;
+    border: 7.3px solid #56bad1;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24.2px;
+  }
+  .btn-secondary {
+    width: 202px;
+    height: 100%;
+    color: white;
+    background-color: #56bad1;
+    border-radius: 24.2px;
+    border: 7.2px solid #007d8e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* "flex flex-col w-[202px] border-[7.2px] border-solid rounded-3xl border-primary-selected bg-secondary-noneselected justify-center items-center" */
+/* flex w-[202px] border-[7.2px] border-solid rounded-3xl border-primary-selected bg-secondary-noneselected justify-center items-center */
